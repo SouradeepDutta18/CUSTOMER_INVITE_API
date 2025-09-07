@@ -5,6 +5,6 @@ class User < ApplicationRecord
 
   # Check if API key is active
   def active_key?
-    expires_at.nil? || expires_at.future?
+    expires_at.future?
   end
 end
