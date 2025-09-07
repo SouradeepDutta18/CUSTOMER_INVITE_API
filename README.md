@@ -1,6 +1,6 @@
 # Customer Invite API
 
-This Rails API allows uploading a JSON lines file of customers and returns those within **100 km of Mumbai**. It includes API key authentication and rate limiting.
+This Rails API allows uploading a JSON lines file of customers and returns those within **100 km distance from Mumbai office location**. It returns customers sorted by User ID in ascending order. It includes API key authentication and rate limiting.
 
 ## Features
 
