@@ -8,7 +8,7 @@ This Rails API allows uploading a JSON lines file of customers and returns those
 - Filters customers using a **bounding box optimization** and accurate **Haversine distance**.  
 - Supports **API key authentication** via `X-API-KEY` header.  
 - Rate limited: **100 requests per minute per user**.  
-- Swagger API documentation included.
+- Swagger API documentation included
 
 ## Prerequisites
 
@@ -34,3 +34,7 @@ rails s
 rake db:test:prepare
 rspec spec
 ```
+
+## For API Documentation
+- hit http://localhost:3000/api/v1/docs/api_docs endpoint
+- paste the JSON response of the endpoint in https://editor.swagger.io/
