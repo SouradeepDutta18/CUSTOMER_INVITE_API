@@ -4,7 +4,6 @@ module Api
       class ApiDocsController < ActionController::API
         include Swagger::Blocks
 
-        # Swagger root
         swagger_root do
           key :swagger, '2.0'
           info do
@@ -25,7 +24,6 @@ module Api
           end
         end
 
-        # A list of all classes that have swagger_* declarations.
         SWAGGERED_CLASSES = [
           Api::V1::Docs::CustomersDocController,
           Api::V1::Docs::Schema::CustomerResponseSchema,

@@ -1,4 +1,3 @@
-# spec/models/user_spec.rb
 require 'rails_helper'
 
 describe User do

@@ -1,4 +1,3 @@
-# app/controllers/api/v1/docs/customers_doc_controller.rb
 module Api
   module V1
     module Docs

@@ -1,4 +1,3 @@
-# app/services/rate_limiter_service.rb
 class RateLimiterService
   LIMIT  = 100        # requests
   WINDOW = 60         # seconds (1 minute)
