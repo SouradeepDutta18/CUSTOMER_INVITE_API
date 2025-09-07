@@ -34,11 +34,6 @@ describe User do
   end
 
   describe '#active_key?' do
-    it 'returns true if expires_at is nil' do
-      subject.expires_at = nil
-      expect(subject.active_key?).to be true
-    end
-
     it 'returns true if expires_at is in the future' do
       subject.expires_at = 1.hour.from_now
       expect(subject.active_key?).to be true

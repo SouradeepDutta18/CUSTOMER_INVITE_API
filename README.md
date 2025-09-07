@@ -25,6 +25,7 @@ cd CUSTOMER_INVITE_API
 bundle install
 rails db:create 
 rails db:migrate
+rails db:seed
 rails s
 ```
 
